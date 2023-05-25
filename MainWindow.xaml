@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp83.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp83"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="Crimson" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Введите % ставку :" Margin="5"/>
+            <TextBox x:Name="Boxp" Margin="5" Grid.Row="1"/>
+            <TextBlock Text="Введите сумму на увеличение :" Margin="5" Grid.Row="2"/>
+            <TextBox x:Name="Boxa" Margin="5" Grid.Row="3"/>
+            <Button Content="OK" Margin="5" Grid.Row="4" Click="Button_Click"/>
+            <TextBlock x:Name="txtOtv" Margin="5" Grid.Row="4"/>
+        </StackPanel>
+    </Grid>
+</Window>
